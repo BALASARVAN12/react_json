@@ -1,0 +1,58 @@
+/* src/components/StudentList.css */
+.student-list-container {
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .student-list-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .student-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  
+  .table-container {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 40px);
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .student-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .student-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+
+  table ,th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  @media (max-width: 768px) {
+    .student-card {
+      width: calc(100% - 20px);
+    }
+  }
+  
